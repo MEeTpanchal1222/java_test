@@ -5,7 +5,9 @@ public class code_3 {
         int count = 0;
         for(int i = 2; i <= 50; i++) {
             for(int j = 1; j <= i; j++) {
-                System.out.println(j);
+                // System.out.println("this is count == 2\n\n\n");
+                // System.out.println(j);
+                //System.out.println("this is count == 2\n\n\n ");
                 if(i % j == 0) {
 
                     count++;
